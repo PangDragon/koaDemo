@@ -1,0 +1,33 @@
+{
+  "name": "koa-demo",
+  "version": "0.1.0",
+  "description": "koa学习demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "html": "node html.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PangDragon/koaDemo.git"
+  },
+  "author": "Xue Ke",
+  "license": "Unlicense",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "js-base64": "^2.5.2",
+    "koa": "^2.11.0",
+    "koa-router": "^7.1.1",
+    "koa-static": "^5.0.0",
+    "mysql2": "^2.1.0",
+    "node-cache": "^5.1.0",
+    "querystring": "^0.2.0",
+    "sha1": "^1.1.1",
+    "tencentcloud-sdk-nodejs": "^3.0.179",
+    "uuid": "^7.0.3",
+    "weixin-js-sdk": "^1.6.0"
+  }
+}
